@@ -4397,6 +4397,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.SetBoolVar,
 		C3.Plugins.System.Cnds.LayerVisible,
 		C3.Plugins.Audio.Acts.SetVolume,
+		C3.Plugins.Browser.Acts.RequestFullScreen,
 		C3.Plugins.Text.Acts.SetVisible,
 		C3.Plugins.Sprite.Acts.SetScale,
 		C3.Plugins.Sprite.Cnds.PickByUID,
