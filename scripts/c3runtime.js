@@ -4477,6 +4477,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Audio.Acts.SetVolume,
 		C3.Plugins.Browser.Acts.RequestFullScreen,
 		C3.Plugins.Text.Acts.SetVisible,
+		C3.Plugins.System.Acts.ResetGlobals,
 		C3.Plugins.Sprite.Acts.SetScale,
 		C3.Plugins.Sprite.Cnds.PickByUID,
 		C3.Plugins.Sprite.Exps.UID,
@@ -4705,11 +4706,11 @@ self.C3_ExpressionFuncs = [
 			return () => (v0.GetValue() + 500);
 		},
 		() => "jump",
+		() => 0.4,
 		p => {
 			const n0 = p._GetNode(0);
 			return () => (n0.ExpObject() - 10);
 		},
-		() => 0.4,
 		p => {
 			const n0 = p._GetNode(0);
 			const n1 = p._GetNode(1);
